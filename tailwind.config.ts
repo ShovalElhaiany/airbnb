@@ -8,11 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      colors: {
+        'airbnb': '#fc3c5c',
+        'airbnb-dark': '#e1175d',
+        'gray-hover': '#f0ecec'
+      }
     },
   },
   plugins: [],
